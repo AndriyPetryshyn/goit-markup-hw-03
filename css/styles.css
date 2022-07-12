@@ -58,6 +58,7 @@ img {
     overflow: hidden;
 }
 .section {
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 .section-title {
@@ -85,6 +86,9 @@ img {
     line-height: 1.19;
     color: #000000;
     text-decoration: none;
+}
+.logo-section {
+    border: 1px solid #ECECEC;
 }
 .logo-link-footer {
     font-family: 'Raleway';
@@ -164,7 +168,6 @@ img {
 }
 
 .hero-title {
-    display: flex;
     width: 696px;
     text-align: center;
     margin: 0 auto;
@@ -211,11 +214,9 @@ img {
 }
 .features-list {
     display: flex;
-    margin: 0 auto;
     gap: var(--indent);
 }
 .features-item  {
-    margin: 0 auto;
     width: 270px;
 }
 .features-title { 
@@ -227,9 +228,9 @@ img {
     text-transform: uppercase;
 }
 .features-text {
-    gap: var(--indent);
-
     font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
 /* Team */
@@ -305,6 +306,8 @@ img {
     padding-right: 24px;
 }
 .project-title {
+    margin-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -321,6 +324,7 @@ img {
     line-height: 1.88;
     color: var(--secondary-color);
 }
+
 .section-title {
     text-align: center;
     margin-bottom: 50px;
@@ -374,6 +378,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 8px;
+    margin-bottom: 50px;
 }
 .btn-portfolio-item .current{
 color: var(--main-color);
