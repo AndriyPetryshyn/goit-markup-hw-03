@@ -75,7 +75,7 @@ img {
 .card-set-item {
     flex-basis: calc(100% - var(--indent) *(var(--items) -1)) /var(--items);
 }
-/* LOGO */
+/* Logo */
 .logo-link {
     margin-right: 93px; 
 
@@ -294,10 +294,7 @@ img {
 
 }
 /*Projects*/
-.portfolio-projects {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .project-wrapper {
     border-top: none;
     padding-top: 20px;
