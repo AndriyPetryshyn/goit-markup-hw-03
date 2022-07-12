@@ -233,6 +233,9 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
+.occupation-section{
+    padding-bottom: 94px;
+}
 /* Team */
 .team {
     background-color: var(--backround-btncolor);
